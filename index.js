@@ -33,6 +33,9 @@ function viewCart() {
   for (var i=0; i<cart.length; i++) {
     var item = items[i]
     var price = cart[item]
+    
+        itemAndPrices.push(`${item} at \$${price}`)
+
 
 function total(){
   let numbers = []
