@@ -35,6 +35,9 @@ function viewCart() {
     var price = cart[item]
     
         itemAndPrices.push(`${item} at \$${price}`)
+  }
+  console.log(`In your cart, you have ${itemAndPrices.join(', ')}.`)
+}
 
 
 function total(){
