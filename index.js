@@ -28,7 +28,9 @@ function addToCart(item) {
 function viewCart() {
     if (!cart.length) {
     console.log("Your shopping cart is empty.")
-  } var itemAndPrices = []
+  } 
+  
+  var itemAndPrices = []
   var items = Object.keys(cart)
   for (var i=0; i<cart.length; i++) {
     var item = items[i]
